@@ -16,8 +16,13 @@ class _ProjectOnePageState extends State<ProjectOnePage> {
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          Text("I am project_2")
+          Text("I am project_1", style: TextStyle(
+            color: Colors.red,
+            fontWeight: FontWeight.w500,
+            fontSize: 25
+          ),),
         ],
       ),
     );
