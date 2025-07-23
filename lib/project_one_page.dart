@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class ProjectOnePage extends StatefulWidget {
+  const ProjectOnePage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<ProjectOnePage> createState() => _ProjectOnePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _ProjectOnePageState extends State<ProjectOnePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("I am sub_project_1")
+          Text("I am project_2")
         ],
       ),
     );
